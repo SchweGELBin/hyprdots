@@ -1,6 +1,7 @@
 {
 	// Theme
 	"workbench.colorTheme": "Catppuccin Mocha",
+	"workbench.iconTheme": "catppuccin-mocha",
 	"editor.scrollbar.vertical": "hidden",
 	"editor.scrollbar.verticalScrollbarSize": 0,
 	"editor.minimap.side": "left",
@@ -8,6 +9,9 @@
 	"terminal.external.linuxExec": "kitty",
 	"workbench.editor.showTabs": "multiple",
 	"editor.tabSize": 8,
+	"editor.indentSize": "tabSize",
+	"window.menuBarVisibility": "toggle",
+	"explorer.confirmDelete": false,
 	// Security
 	"security.workspace.trust.enabled": false,
 	"extensions.autoUpdate": false,
@@ -32,9 +36,5 @@
 	"prettier.printWidth": 80,
 	"prettier.tabWidth": 8,
 	"prettier.useTabs": true,
-	"prettier.singleQuote": false,
-	"editor.indentSize": "tabSize",
-	"window.menuBarVisibility": "toggle",
-	"explorer.confirmDelete": false,
-	"workbench.iconTheme": "catppuccin-mocha"
+	"prettier.singleQuote": false
 }
